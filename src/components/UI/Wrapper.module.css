@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 370px;
+  max-width: 740px;
+  height: 90%;
+
+  margin: 0 auto;
+
+  background-color: #fff;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    height: 100%;
+  }
+}

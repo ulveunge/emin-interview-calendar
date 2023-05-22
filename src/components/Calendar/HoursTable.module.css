@@ -1,0 +1,56 @@
+.hours-table-wrapper {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hours-table-wrapper::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.table td {
+  font-size: 1.8rem;
+  color: #c1c1c1;
+
+  border: 2px solid #e6e6e6;
+
+  height: 6rem;
+
+  position: relative;
+}
+
+.table td:not(:first-child) {
+  cursor: pointer;
+}
+
+.table td[data-active="true"] {
+  background-color: #ecedff;
+  box-shadow: 0px 0px 0px 2px #fff inset;
+}
+
+.table td[data-selected="true"] {
+  background-color: #b4b8ff;
+  box-shadow: 0px 0px 0px 2px #fff inset;
+}
+
+.table td:first-child {
+  border: none;
+}
+
+.table td:nth-child(2) {
+  border-left: none;
+}
+
+.table tr:first-child td {
+  border-top: none;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.hours {
+  position: absolute;
+  bottom: -1.3rem;
+  right: 1rem;
+}
