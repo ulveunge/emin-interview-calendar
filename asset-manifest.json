@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/emin-interview-calendar/static/css/main.ab262eef.css",
+    "main.js": "/emin-interview-calendar/static/js/main.4887a990.js",
+    "index.html": "/emin-interview-calendar/index.html",
+    "main.ab262eef.css.map": "/emin-interview-calendar/static/css/main.ab262eef.css.map",
+    "main.4887a990.js.map": "/emin-interview-calendar/static/js/main.4887a990.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab262eef.css",
+    "static/js/main.4887a990.js"
+  ]
+}
